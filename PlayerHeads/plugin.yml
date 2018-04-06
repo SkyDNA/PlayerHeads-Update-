@@ -1,0 +1,10 @@
+name: PlayerHead  
+main: Legoboy\PlayerHead\Main
+version: "2.0.0-beta"
+api: [3.0.0-ALPHA11]
+author: Legoboy
+commands:
+  head:
+    usage: "/head [sell]"
+    description: "PlayerHead main command!"
+    permission: head.sell
